@@ -1,0 +1,254 @@
+{
+  "lang": { "code": "en", "label": "EN", "name": "English" },
+  "meta": {
+    "homeTitle": "Flower Story Boutique | Premium flower delivery in Rishon LeZion, Israel",
+    "homeDescription": "Flower Story is a premium flower boutique in Rishon LeZion: rose bouquets, balloon bouquets, dessert hearts and flower arrangements made to order and delivered across Israel. Order on WhatsApp.",
+    "shopTitle": "Shop | Bouquets, balloons & gift boxes – Flower Story",
+    "shopDescription": "All Flower Story bouquets, balloon bouquets, gift boxes and desserts. Choose size, colours and a personal message, delivered in Rishon LeZion and central Israel.",
+    "checkoutTitle": "Checkout – Flower Story",
+    "productSuffix": "Flower Story Boutique"
+  },
+  "nav": {
+    "shop": "Shop",
+    "collections": "Collections",
+    "events": "Events & workshops",
+    "story": "Our story",
+    "contact": "Contact",
+    "eventsShort": "Events",
+    "storyShort": "Story",
+    "cart": "Bag",
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to content",
+    "home": "Home",
+    "language": "Language"
+  },
+  "intro": { "skip": "Skip" },
+  "banner": {
+    "default": "Send flowers to the people you love in Israel · Sunday to Friday",
+    "cta": "See the collection",
+    "collections": {
+      "valentine": { "name": "Valentine’s collection", "line": "Red roses, kiss balloons and heart boxes, in limited numbers" },
+      "tu-beav": { "name": "Tu B’Av", "line": "Israel’s day of love: special-edition bouquets and boxes" },
+      "rosh-hashana": { "name": "Rosh Hashanah", "line": "Gifts for a sweet new year: flowers, desserts and boxes" },
+      "pesach": { "name": "Passover", "line": "Flowers for the holiday table and gifts for your hosts" },
+      "shavuot": { "name": "Shavuot", "line": "White and pastel bouquets for the holiday" },
+      "womens-day": { "name": "Women’s Day", "line": "Flowers for the women you love" }
+    }
+  },
+  "hero": {
+    "eyebrow": "PREMIUM FLOWER BOUTIQUE · RISHON LEZION",
+    "title": "Flowers that tell your story",
+    "cta": "Shop now",
+    "whatsapp": "Order on WhatsApp",
+    "alt": "A giant bouquet of red roses wrapped in cream paper"
+  },
+  "manifesto": {
+    "eyebrow": "Flower Story",
+    "title": "A premium flower boutique, for a magical and moving bond between people",
+    "body": "Every order is built around the person receiving it: the colours, the size, the words. Rose bouquets, balloon bouquets, desserts and flower hearts, designed in our Rishon LeZion studio and delivered in Israel, with event work abroad too."
+  },
+  "signature": {
+    "eyebrow": "Our collections",
+    "title": "Three signatures",
+    "viewAll": "Shop everything",
+    "items": [
+      { "title": "Rose bouquets", "text": "Dozens, even hundreds of roses in a single bouquet, wrapped in soft layers. A gesture no one forgets.", "category": "roses", "image": "/media/roses/roses-027.jpg" },
+      { "title": "Balloon bouquets", "text": "Choose the balloon colour, the wrap and the size, then add a personal word printed on the balloon.", "category": "balloon-bouquets", "image": "/media/bouquets-ballons/bouquets-ballons-001.jpg" },
+      { "title": "Dessert & flower boxes", "text": "Hearts filled with desserts and dressed with fresh flowers. Sweet, beautiful and festive.", "category": "desserts", "image": "/media/desserts/desserts-012.jpg" }
+    ]
+  },
+  "shop": {
+    "eyebrow": "The shop",
+    "title": "Choose the moment",
+    "intro": "Every bouquet is made on the day of delivery. Pick the size, the colours and the message; we take care of the rest.",
+    "all": "All",
+    "categories": "Category",
+    "occasions": "Occasion",
+    "from": "From ",
+    "onRequest": "Price confirmed on WhatsApp",
+    "soldOut": "Sold out",
+    "left": "{n} left",
+    "limited": "Limited edition",
+    "empty": "Nothing here for this selection yet.",
+    "viewAll": "Shop everything",
+    "count": "{n} pieces",
+    "view": "View"
+  },
+  "product": {
+    "back": "Back to the shop",
+    "options": "Make it yours",
+    "word": "Personal message",
+    "wordPlaceholder": "Happy birthday Noa · Love you",
+    "wordHint": "Up to 40 characters, printed on the balloon or the card.",
+    "date": "Delivery date",
+    "slot": "Time slot",
+    "chooseSlot": "Choose a time slot",
+    "addToCart": "Add to bag",
+    "added": "Added to your bag",
+    "orderWhatsapp": "Ask about this piece on WhatsApp",
+    "suggestions": "Complete the gift",
+    "add": "Add",
+    "related": "More from this collection",
+    "freshNote": "Every bouquet is made with fresh flowers on the day of delivery. Shades may vary slightly with the season.",
+    "required": "Please choose {field}",
+    "gallery": "Image {n} of {total}"
+  },
+  "options": {
+    "size": "Size",
+    "roses": "Number of roses",
+    "roseColor": "Rose colour",
+    "balloonColor": "Balloon colour",
+    "wrapColor": "Wrap colour",
+    "palette": "Palette",
+    "hearts": "Number of hearts"
+  },
+  "choices": {
+    "hearts": { "1": "One heart", "2": "Two hearts" },
+    "roses": "{n} roses"
+  },
+  "colors": {
+    "red": "Red",
+    "white": "White",
+    "pink": "Pink",
+    "cream": "Cream",
+    "nude": "Nude",
+    "black": "Black",
+    "clear": "Clear",
+    "blue": "Baby blue",
+    "mixed": "Mixed"
+  },
+  "cart": {
+    "title": "Your bag",
+    "empty": "Your bag is empty. Let’s fill it with flowers.",
+    "continue": "Keep shopping",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "qty": "Quantity",
+    "subtotal": "Subtotal",
+    "pricesNote": "The final price is confirmed on WhatsApp before payment.",
+    "word": "Message",
+    "addons": "Extras",
+    "open": "Open bag",
+    "items": "{n} items in your bag"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "summary": "Your order",
+    "you": "Your details",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email (for your confirmation)",
+    "delivery": "Delivery or pick-up",
+    "modeDelivery": "Delivery",
+    "modePickup": "Pick-up at the studio",
+    "pickupNote": "The studio address in Rishon LeZion will be sent on WhatsApp.",
+    "zone": "Delivery area",
+    "address": "Delivery address",
+    "city": "City",
+    "date": "Date",
+    "slot": "Time slot",
+    "gift": "This is a gift",
+    "recipientName": "Recipient’s name",
+    "recipientPhone": "Recipient’s phone",
+    "card": "Card message",
+    "notes": "Notes",
+    "payment": "Payment",
+    "payWhatsapp": "Send my order on WhatsApp",
+    "payWhatsappNote": "Your order goes to Shir on WhatsApp with every detail. Payment happens once it is confirmed.",
+    "payCard": "Pay by card",
+    "submit": "Send my order",
+    "submitCard": "Continue to payment",
+    "sending": "Sending…",
+    "fee": "Delivery",
+    "feeOnRequest": "Confirmed on WhatsApp",
+    "total": "Total",
+    "errors": {
+      "required": "Required",
+      "phone": "Please check the phone number",
+      "email": "Please check the email address",
+      "closed": "No deliveries on this day",
+      "lead": "Please order at least {h} hours ahead",
+      "generic": "Something went wrong. You can send your order directly on WhatsApp."
+    },
+    "done": "Order sent",
+    "doneText": "Thank you! Shir will get back to you on WhatsApp to confirm the order and payment.",
+    "emptyCart": "Your bag is empty."
+  },
+  "statement": {
+    "title": "Nothing quite like it",
+    "text": "Our new flower heart: festive, elegant and made for life’s big moments.",
+    "cta": "See the flower hearts",
+    "alt": "A heart of pink flowers in a basket with a heart-shaped handle"
+  },
+  "story": {
+    "eyebrow": "Our story",
+    "title": "Behind every bouquet, there is Shir",
+    "body": "Flower Story was born from a love of that moment when someone receives flowers and can’t quite believe it. In her Rishon LeZion studio, Shir designs every order around the person receiving it, from a giant rose bouquet to a small dessert heart with a message.",
+    "alt": "Shir, founder of Flower Story, holding a pink flower heart"
+  },
+  "events": {
+    "eyebrow": "Events & workshops",
+    "title": "Flowers for the big moments",
+    "text": "Flowers and balloons for events in Israel and abroad, and flower workshops for groups. Tell us about your event and we’ll come back with a proposal.",
+    "items": ["Private events & birthdays", "Births & brit milah", "Corporate events", "Flower workshops"],
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "type": "Type of event",
+      "types": ["Private event", "Birthday", "Birth / brit", "Corporate event", "Workshop", "Other"],
+      "date": "Approximate date",
+      "guests": "Number of guests",
+      "message": "Tell us more",
+      "submit": "Send on WhatsApp",
+      "quote": "On quotation"
+    }
+  },
+  "upclose": {
+    "eyebrow": "Up close",
+    "title": "The small details",
+    "text": "Pearls among the roses, layered organza, ribbons tied by hand. The things you only see up close.",
+    "alt": "A close-up detail of a bouquet"
+  },
+  "reviews": { "eyebrow": "Kind words", "title": "What our clients say" },
+  "info": {
+    "eyebrow": "Delivery & information",
+    "title": "How it works",
+    "items": [
+      { "title": "Delivery", "text": "We deliver in Rishon LeZion and the surrounding area, and across Israel on request." },
+      { "title": "Opening days", "text": "Sunday to Friday. No deliveries on Shabbat or Jewish holidays." },
+      { "title": "Order ahead", "text": "We recommend ordering a day ahead. For holidays and limited editions, as early as you can." },
+      { "title": "Pick-up", "text": "You can collect your order at our Rishon LeZion studio by appointment." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s talk flowers",
+    "text": "WhatsApp is the fastest way to reach us. Shir replies Sunday to Friday.",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "area": "Rishon LeZion, Israel"
+  },
+  "footer": {
+    "tagline": "A premium flower boutique, for a magical and moving bond between people",
+    "shop": "Shop",
+    "info": "Information",
+    "follow": "Follow us",
+    "rights": "All rights reserved",
+    "photos": "All photography: Flower Story"
+  },
+  "whatsapp": {
+    "float": "Chat on WhatsApp",
+    "hello": "Hi Shir, I found you through the Flower Story website.",
+    "product": "Hi Shir, I have a question about: {name}",
+    "orderTitle": "New order from the website",
+    "eventTitle": "Event / workshop enquiry"
+  },
+  "abroad": "Living abroad? Send flowers to the people you love in Israel.",
+  "email": {
+    "subjectClient": "We received your order – Flower Story",
+    "subjectShop": "New order from the website",
+    "intro": "Thank you for your order! Shir will get back to you on WhatsApp to confirm it.",
+    "eventSubject": "New event / workshop enquiry"
+  }
+}

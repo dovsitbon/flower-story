@@ -1,0 +1,254 @@
+{
+  "lang": { "code": "fr", "label": "FR", "name": "Français" },
+  "meta": {
+    "homeTitle": "Flower Story Boutique | Livraison de fleurs premium à Rishon LeZion, Israël",
+    "homeDescription": "Flower Story, boutique florale premium à Rishon LeZion : bouquets de roses, bouquets ballons, cœurs de desserts et compositions sur mesure, livrés en Israël. Commande sur WhatsApp.",
+    "shopTitle": "Boutique | Bouquets, ballons et coffrets – Flower Story",
+    "shopDescription": "Tous les bouquets, bouquets ballons, coffrets et desserts de Flower Story. Choisissez la taille, les couleurs et un mot personnel, livraison à Rishon LeZion et dans le centre d’Israël.",
+    "checkoutTitle": "Finaliser la commande – Flower Story",
+    "productSuffix": "Flower Story Boutique"
+  },
+  "nav": {
+    "shop": "Boutique",
+    "collections": "Collections",
+    "events": "Événements et ateliers",
+    "story": "Notre histoire",
+    "contact": "Contact",
+    "eventsShort": "Événements",
+    "storyShort": "Histoire",
+    "cart": "Panier",
+    "menu": "Menu",
+    "close": "Fermer",
+    "skip": "Aller au contenu",
+    "home": "Accueil",
+    "language": "Langue"
+  },
+  "intro": { "skip": "Passer" },
+  "banner": {
+    "default": "Envoyez des fleurs à vos proches en Israël · du dimanche au vendredi",
+    "cta": "Voir la collection",
+    "collections": {
+      "valentine": { "name": "Collection Saint-Valentin", "line": "Roses rouges, ballons bisous et coffrets cœur, en quantité limitée" },
+      "tu-beav": { "name": "Tou Beav", "line": "La fête de l’amour en Israël : bouquets et coffrets en édition spéciale" },
+      "rosh-hashana": { "name": "Roch Hachana", "line": "Des cadeaux pour une année douce : fleurs, desserts et coffrets" },
+      "pesach": { "name": "Pessah", "line": "Des fleurs pour la table de fête et des cadeaux pour vos hôtes" },
+      "shavuot": { "name": "Chavouot", "line": "Bouquets blancs et pastel pour la fête" },
+      "womens-day": { "name": "Journée de la femme", "line": "Des fleurs pour les femmes que vous aimez" }
+    }
+  },
+  "hero": {
+    "eyebrow": "PREMIUM FLOWER BOUTIQUE · RISHON LEZION",
+    "title": "Des fleurs qui racontent votre histoire",
+    "cta": "La boutique",
+    "whatsapp": "Commander sur WhatsApp",
+    "alt": "Un immense bouquet de roses rouges dans un emballage crème"
+  },
+  "manifesto": {
+    "eyebrow": "Flower Story",
+    "title": "Une boutique florale premium, pour un lien magique et émouvant entre les gens",
+    "body": "Chaque commande se construit autour de la personne qui la reçoit : les couleurs, la taille, les mots. Bouquets de roses, bouquets ballons, desserts et cœurs fleuris, créés dans notre studio de Rishon LeZion et livrés en Israël, et pour les événements, jusqu’à l’étranger."
+  },
+  "signature": {
+    "eyebrow": "Nos collections",
+    "title": "Trois signatures",
+    "viewAll": "Toute la boutique",
+    "items": [
+      { "title": "Bouquets de roses", "text": "Des dizaines, voire des centaines de roses en un seul bouquet, enveloppées de voiles. Un geste qu’on n’oublie pas.", "category": "roses", "image": "/media/roses/roses-027.jpg" },
+      { "title": "Bouquets ballons", "text": "Choisissez la couleur du ballon, l’emballage et la taille, puis ajoutez un mot imprimé sur le ballon.", "category": "balloon-bouquets", "image": "/media/bouquets-ballons/bouquets-ballons-001.jpg" },
+      { "title": "Coffrets desserts et fleurs", "text": "Des cœurs garnis de desserts et habillés de fleurs fraîches. Doux, beau et festif.", "category": "desserts", "image": "/media/desserts/desserts-012.jpg" }
+    ]
+  },
+  "shop": {
+    "eyebrow": "La boutique",
+    "title": "Choisissez le moment",
+    "intro": "Chaque bouquet est composé le jour de la livraison. Vous choisissez la taille, les couleurs et le mot ; on s’occupe du reste.",
+    "all": "Tout",
+    "categories": "Catégorie",
+    "occasions": "Occasion",
+    "from": "À partir de ",
+    "onRequest": "Prix confirmé sur WhatsApp",
+    "soldOut": "Épuisé",
+    "left": "Plus que {n}",
+    "limited": "Édition limitée",
+    "empty": "Rien pour cette sélection pour le moment.",
+    "viewAll": "Toute la boutique",
+    "count": "{n} créations",
+    "view": "Voir"
+  },
+  "product": {
+    "back": "Retour à la boutique",
+    "options": "Personnaliser",
+    "word": "Mot personnel",
+    "wordPlaceholder": "Joyeux anniversaire Noa · Je t’aime",
+    "wordHint": "40 caractères maximum, imprimés sur le ballon ou la carte.",
+    "date": "Date de livraison",
+    "slot": "Créneau",
+    "chooseSlot": "Choisir un créneau",
+    "addToCart": "Ajouter au panier",
+    "added": "Ajouté au panier",
+    "orderWhatsapp": "Une question sur WhatsApp",
+    "suggestions": "Pour compléter le cadeau",
+    "add": "Ajouter",
+    "related": "Dans la même collection",
+    "freshNote": "Chaque bouquet est composé de fleurs fraîches le jour de la livraison. Les teintes peuvent légèrement varier selon la saison.",
+    "required": "Choisissez {field}",
+    "gallery": "Image {n} sur {total}"
+  },
+  "options": {
+    "size": "Taille",
+    "roses": "Nombre de roses",
+    "roseColor": "Couleur des roses",
+    "balloonColor": "Couleur du ballon",
+    "wrapColor": "Couleur de l’emballage",
+    "palette": "Teintes",
+    "hearts": "Nombre de cœurs"
+  },
+  "choices": {
+    "hearts": { "1": "Un cœur", "2": "Deux cœurs" },
+    "roses": "{n} roses"
+  },
+  "colors": {
+    "red": "Rouge",
+    "white": "Blanc",
+    "pink": "Rose",
+    "cream": "Crème",
+    "nude": "Nude",
+    "black": "Noir",
+    "clear": "Transparent",
+    "blue": "Bleu ciel",
+    "mixed": "Mélange"
+  },
+  "cart": {
+    "title": "Votre panier",
+    "empty": "Votre panier est vide. Remplissons-le de fleurs.",
+    "continue": "Continuer mes achats",
+    "checkout": "Commander",
+    "remove": "Retirer",
+    "qty": "Quantité",
+    "subtotal": "Sous-total",
+    "pricesNote": "Le prix final est confirmé sur WhatsApp avant le paiement.",
+    "word": "Mot",
+    "addons": "Suppléments",
+    "open": "Ouvrir le panier",
+    "items": "{n} articles dans le panier"
+  },
+  "checkout": {
+    "title": "Finaliser la commande",
+    "summary": "Votre commande",
+    "you": "Vos coordonnées",
+    "name": "Nom complet",
+    "phone": "Téléphone",
+    "email": "E-mail (pour la confirmation)",
+    "delivery": "Livraison ou retrait",
+    "modeDelivery": "Livraison",
+    "modePickup": "Retrait au studio",
+    "pickupNote": "L’adresse du studio à Rishon LeZion vous sera envoyée sur WhatsApp.",
+    "zone": "Zone de livraison",
+    "address": "Adresse de livraison",
+    "city": "Ville",
+    "date": "Date",
+    "slot": "Créneau",
+    "gift": "C’est un cadeau",
+    "recipientName": "Nom du destinataire",
+    "recipientPhone": "Téléphone du destinataire",
+    "card": "Mot sur la carte",
+    "notes": "Remarques",
+    "payment": "Paiement",
+    "payWhatsapp": "Envoyer ma commande sur WhatsApp",
+    "payWhatsappNote": "Votre commande part chez Shir sur WhatsApp avec tous les détails. Le paiement se fait après confirmation.",
+    "payCard": "Payer par carte",
+    "submit": "Envoyer ma commande",
+    "submitCard": "Passer au paiement",
+    "sending": "Envoi…",
+    "fee": "Livraison",
+    "feeOnRequest": "Confirmé sur WhatsApp",
+    "total": "Total",
+    "errors": {
+      "required": "Champ obligatoire",
+      "phone": "Vérifiez le numéro de téléphone",
+      "email": "Vérifiez l’adresse e-mail",
+      "closed": "Pas de livraison ce jour-là",
+      "lead": "Merci de commander au moins {h} heures à l’avance",
+      "generic": "Un problème est survenu. Vous pouvez envoyer votre commande directement sur WhatsApp."
+    },
+    "done": "Commande envoyée",
+    "doneText": "Merci ! Shir vous répond sur WhatsApp pour confirmer la commande et le paiement.",
+    "emptyCart": "Votre panier est vide."
+  },
+  "statement": {
+    "title": "Rien d’aussi beau",
+    "text": "Notre nouveau cœur fleuri : festif, élégant, parfait pour les grands moments.",
+    "cta": "Voir les cœurs fleuris",
+    "alt": "Un cœur de fleurs roses dans un panier à anse en cœur"
+  },
+  "story": {
+    "eyebrow": "Notre histoire",
+    "title": "Derrière chaque bouquet, il y a Shir",
+    "body": "Flower Story est née de l’amour de ce moment où quelqu’un reçoit des fleurs et n’en revient pas. Dans son studio de Rishon LeZion, Shir imagine chaque commande pour la personne qui la reçoit, du bouquet géant de roses au petit cœur de desserts avec un mot.",
+    "alt": "Shir, fondatrice de Flower Story, avec un cœur de fleurs rose"
+  },
+  "events": {
+    "eyebrow": "Événements et ateliers",
+    "title": "Des fleurs pour les grands moments",
+    "text": "Fleurs et ballons pour vos événements en Israël et à l’étranger, et ateliers floraux pour les groupes. Parlez-nous de votre événement, nous revenons vers vous avec une proposition.",
+    "items": ["Événements privés et anniversaires", "Naissances et brit mila", "Événements d’entreprise", "Ateliers floraux"],
+    "form": {
+      "name": "Nom",
+      "phone": "Téléphone",
+      "type": "Type d’événement",
+      "types": ["Événement privé", "Anniversaire", "Naissance / brit", "Événement d’entreprise", "Atelier", "Autre"],
+      "date": "Date approximative",
+      "guests": "Nombre d’invités",
+      "message": "Dites-nous en plus",
+      "submit": "Envoyer sur WhatsApp",
+      "quote": "Sur devis"
+    }
+  },
+  "upclose": {
+    "eyebrow": "De près",
+    "title": "Les petits détails",
+    "text": "Des perles entre les roses, de l’organza en couches, des rubans noués à la main. Ce qu’on ne voit que de près.",
+    "alt": "Détail en gros plan d’un bouquet"
+  },
+  "reviews": { "eyebrow": "Mots doux", "title": "Ce que disent nos clients" },
+  "info": {
+    "eyebrow": "Livraison et infos",
+    "title": "Comment ça marche",
+    "items": [
+      { "title": "Livraison", "text": "Nous livrons à Rishon LeZion et dans les environs, et dans tout Israël sur demande." },
+      { "title": "Jours d’ouverture", "text": "Du dimanche au vendredi. Pas de livraison le chabbat ni les jours de fête." },
+      { "title": "Commander à l’avance", "text": "Nous conseillons de commander la veille. Pour les fêtes et les éditions limitées, le plus tôt possible." },
+      { "title": "Retrait", "text": "Vous pouvez retirer votre commande au studio de Rishon LeZion, sur rendez-vous." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Parlons fleurs",
+    "text": "WhatsApp est le moyen le plus rapide de nous joindre. Shir répond du dimanche au vendredi.",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "area": "Rishon LeZion, Israël"
+  },
+  "footer": {
+    "tagline": "Une boutique florale premium, pour un lien magique et émouvant entre les gens",
+    "shop": "Boutique",
+    "info": "Informations",
+    "follow": "Suivez-nous",
+    "rights": "Tous droits réservés",
+    "photos": "Toutes les photos : Flower Story"
+  },
+  "whatsapp": {
+    "float": "Écrire sur WhatsApp",
+    "hello": "Bonjour Shir, je vous écris depuis le site Flower Story.",
+    "product": "Bonjour Shir, j’ai une question sur : {name}",
+    "orderTitle": "Nouvelle commande depuis le site",
+    "eventTitle": "Demande événement / atelier"
+  },
+  "abroad": "Vous vivez à l’étranger ? Envoyez des fleurs à vos proches en Israël.",
+  "email": {
+    "subjectClient": "Nous avons bien reçu votre commande – Flower Story",
+    "subjectShop": "Nouvelle commande depuis le site",
+    "intro": "Merci pour votre commande ! Shir vous répond sur WhatsApp pour la confirmer.",
+    "eventSubject": "Nouvelle demande événement / atelier"
+  }
+}

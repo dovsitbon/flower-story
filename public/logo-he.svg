@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" fill="none">
+  <title>פלאוור סטורי בוטיק</title>
+  <text x="300" y="68" text-anchor="end" direction="rtl" fill="#2A2224" font-family="'Frank Ruhl Libre', 'Times New Roman', serif" font-weight="300" font-size="50" letter-spacing="3">פלאוור סטורי</text>
+  <g transform="translate(318 18) scale(1.6)" stroke="#2A2224" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 20 C20.4 15.6 20.6 10 24 6.5 C27.4 10 27.6 15.6 24 20 Z"/>
+    <path d="M24 20 C20.4 15.6 20.6 10 24 6.5 C27.4 10 27.6 15.6 24 20 Z" transform="rotate(72 24 20)"/>
+    <path d="M24 20 C20.4 15.6 20.6 10 24 6.5 C27.4 10 27.6 15.6 24 20 Z" transform="rotate(144 24 20)"/>
+    <path d="M24 20 C20.4 15.6 20.6 10 24 6.5 C27.4 10 27.6 15.6 24 20 Z" transform="rotate(216 24 20)"/>
+    <path d="M24 20 C20.4 15.6 20.6 10 24 6.5 C27.4 10 27.6 15.6 24 20 Z" transform="rotate(288 24 20)"/>
+    <circle cx="24" cy="20" r="1.4"/>
+    <path d="M24 21 C24.4 29 23.4 36 24 44"/>
+    <path d="M24 33.5 C27.2 30.6 31.2 30.4 33.6 32.4 C30.6 35.4 27 35.6 24 33.5 Z"/>
+  </g>
+  <text x="196" y="100" text-anchor="middle" fill="#2A2224" font-family="Jost, 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="13" letter-spacing="8">BOUTIQUE</text>
+</svg>

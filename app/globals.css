@@ -1,0 +1,285 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #fdfaf7;
+  --color-blush: #f6ece8;
+  --color-powder: #e8c4c4;
+  --color-rose: #c98a8f;
+  --color-wine: #8e1f2f;
+  --color-champagne: #d9c3a0;
+  --color-ink: #2a2224;
+  --color-muted: #6e5d61;
+  --color-line: #e7d9cf;
+
+  --font-body: var(--font-jost), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-cormorant), Georgia, serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+[dir="rtl"] {
+  --font-body: var(--font-heebo), Arial, sans-serif;
+  --font-display: var(--font-frank), "Times New Roman", serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-powder);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 1px solid var(--color-wine);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.6875rem;
+    font-weight: 400;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+  }
+  [dir="rtl"] .eyebrow {
+    letter-spacing: 0.12em;
+    font-size: 0.8125rem;
+  }
+  .eyebrow-latin {
+    font-family: var(--font-jost), Arial, sans-serif;
+    letter-spacing: 0.32em;
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 300;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+  }
+  [dir="ltr"] .display em {
+    font-style: italic;
+  }
+  .nav-link {
+    font-size: 0.6875rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  [dir="rtl"] .nav-link {
+    letter-spacing: 0.06em;
+    font-size: 0.875rem;
+  }
+  .btn-line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    min-height: 3rem;
+    padding: 0.875rem 2rem;
+    border: 1px solid currentColor;
+    font-size: 0.6875rem;
+    font-weight: 400;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    transition:
+      background-color 0.5s var(--ease-soft),
+      color 0.5s var(--ease-soft),
+      border-color 0.5s var(--ease-soft);
+  }
+  [dir="rtl"] .btn-line {
+    letter-spacing: 0.08em;
+    font-size: 0.875rem;
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-ivory);
+  }
+  .btn-line.on-dark:hover {
+    background: var(--color-ivory);
+    border-color: var(--color-ivory);
+    color: var(--color-ink);
+  }
+  .btn-fill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    min-height: 3.25rem;
+    padding: 0.875rem 2rem;
+    background: var(--color-rose);
+    color: var(--color-ink);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    transition:
+      background-color 0.5s var(--ease-soft),
+      color 0.5s var(--ease-soft);
+  }
+  [dir="rtl"] .btn-fill {
+    letter-spacing: 0.08em;
+    font-size: 0.9375rem;
+  }
+  .btn-fill:hover {
+    background: var(--color-wine);
+    color: var(--color-ivory);
+  }
+  .btn-fill:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .link-line {
+    background: linear-gradient(currentColor, currentColor) no-repeat 0 100% / 100% 1px;
+    padding-bottom: 0.2em;
+    transition: background-size 0.5s var(--ease-soft);
+  }
+  .link-line:hover {
+    background-size: 0 1px;
+  }
+  .field {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--color-line);
+    background: transparent;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    color: var(--color-ink);
+    border-radius: 0;
+    transition: border-color 0.4s;
+  }
+  select.field {
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-ink);
+  }
+  .field::placeholder {
+    color: #a3949a;
+  }
+  .label {
+    display: block;
+    font-size: 0.6875rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+  [dir="rtl"] .label {
+    letter-spacing: 0.04em;
+    font-size: 0.8125rem;
+  }
+  .chip {
+    border: 1px solid var(--color-line);
+    padding: 0.55rem 1rem;
+    font-size: 0.8125rem;
+    transition:
+      border-color 0.3s,
+      background-color 0.3s;
+  }
+  .chip[aria-pressed="true"],
+  .chip[aria-checked="true"] {
+    border-color: var(--color-ink);
+    background: var(--color-ink);
+    color: var(--color-ivory);
+  }
+  .chip:hover {
+    border-color: var(--color-ink);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Rideau d'ouverture : masqué avant le premier rendu s'il a déjà été vu */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-blush);
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+.intro-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-draw 0.55s ease-in-out forwards;
+}
+.intro-bloom {
+  animation: intro-bloom 1.1s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+@keyframes intro-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes intro-bloom {
+  from {
+    transform: rotate(-24deg) scale(0.72);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+}

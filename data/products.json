@@ -1,0 +1,437 @@
+{
+  "_README": "Catalogue de la boutique. PRIX : tous les montants (priceFrom, delta, fee, addons) sont des EXEMPLES À REMPLIR par Shir. Tant que pricesConfirmed vaut false, le site n'affiche aucun prix et la commande part sur WhatsApp, où Shir confirme le prix. Passer pricesConfirmed à true une fois les vrais prix saisis. Stock : nombre de pièces restantes pour les collections limitées (null = pas de limite), à mettre à jour à la main.",
+  "currency": "ILS",
+  "pricesConfirmed": false,
+  "_pricesToFill": "À REMPLIR : tous les prix ci-dessous sont fictifs",
+
+  "categories": [
+    { "id": "roses", "name": { "he": "זרי ורדים", "en": "Rose bouquets", "fr": "Bouquets de roses", "es": "Ramos de rosas" } },
+    { "id": "bouquets", "name": { "he": "זרי פרחים", "en": "Flower bouquets", "fr": "Bouquets de fleurs", "es": "Ramos de flores" } },
+    { "id": "balloon-bouquets", "name": { "he": "זרי בלונים", "en": "Balloon bouquets", "fr": "Bouquets ballons", "es": "Ramos con globos" } },
+    { "id": "boxes", "name": { "he": "מארזים", "en": "Gift boxes", "fr": "Coffrets", "es": "Cajas regalo" } },
+    { "id": "desserts", "name": { "he": "קינוחים", "en": "Desserts", "fr": "Desserts", "es": "Postres" } },
+    { "id": "hearts", "name": { "he": "לבבות פרחים וסידורים", "en": "Flower hearts & arrangements", "fr": "Cœurs fleuris et compositions", "es": "Corazones de flores y arreglos" } },
+    { "id": "balloons", "name": { "he": "בלונים מיוחדים", "en": "Special balloons", "fr": "Ballons", "es": "Globos especiales" } },
+    { "id": "baby", "name": { "he": "לידה", "en": "Baby", "fr": "Naissance", "es": "Bebé" } }
+  ],
+
+  "occasions": [
+    { "id": "birthday", "name": { "he": "יום הולדת", "en": "Birthday", "fr": "Anniversaire", "es": "Cumpleaños" } },
+    { "id": "love", "name": { "he": "אהבה", "en": "Love", "fr": "Amour", "es": "Amor" } },
+    { "id": "birth", "name": { "he": "לידה", "en": "New baby", "fr": "Naissance", "es": "Nacimiento" } },
+    { "id": "congrats", "name": { "he": "מזל טוב", "en": "Congratulations", "fr": "Félicitations", "es": "Felicidades" } },
+    { "id": "thanks", "name": { "he": "תודה", "en": "Thank you", "fr": "Merci", "es": "Gracias" } },
+    { "id": "holidays", "name": { "he": "חגים", "en": "Holidays", "fr": "Fêtes", "es": "Fiestas" } }
+  ],
+
+  "optionSets": {
+    "size": { "type": "choice", "choices": [ { "id": "S", "delta": 0 }, { "id": "M", "delta": 100 }, { "id": "L", "delta": 200 }, { "id": "XL", "delta": 400 } ] },
+    "sizeBalloon": { "type": "choice", "choices": [ { "id": "M", "delta": 0 }, { "id": "L", "delta": 150 }, { "id": "XL", "delta": 350 } ] },
+    "balloonColor": { "type": "color", "choices": [ { "id": "pink" }, { "id": "nude" }, { "id": "white" }, { "id": "clear" }, { "id": "red" } ] },
+    "wrapColor": { "type": "color", "choices": [ { "id": "pink" }, { "id": "white" }, { "id": "cream" }, { "id": "black" } ] },
+    "palette": { "type": "color", "choices": [ { "id": "pink" }, { "id": "white" }, { "id": "mixed" } ] }
+  },
+
+  "products": [
+    {
+      "id": "red-roses-signature",
+      "category": "roses",
+      "occasions": ["love", "birthday", "congrats"],
+      "images": ["/media/roses/roses-027.jpg", "/media/roses/roses-021.jpg", "/media/roses/roses-029.jpg", "/media/roses/roses-022.jpg", "/media/roses/roses-030.jpg", "/media/roses/roses-028.jpg"],
+      "name": { "he": "זר ורדים אדומים סיגנצ׳ר", "en": "Signature red roses", "fr": "Roses rouges signature", "es": "Rosas rojas signature" },
+      "description": {
+        "he": "עשרות ומאות ורדים אדומים בזר אחד, עטופים בשכבות נייר שמנת רכות. המחווה הגדולה ביותר שלנו.",
+        "en": "Dozens, even hundreds of red roses in a single bouquet, wrapped in soft layers of cream paper. Our grandest gesture.",
+        "fr": "Des dizaines, voire des centaines de roses rouges en un seul bouquet, enveloppées de voiles crème. Notre geste le plus grand.",
+        "es": "Decenas, incluso cientos de rosas rojas en un solo ramo, envueltas en capas suaves de papel crema. Nuestro gesto más grande."
+      },
+      "priceFrom": 590,
+      "options": [
+        { "id": "roses", "type": "choice", "choices": [ { "id": "51", "delta": 0 }, { "id": "101", "delta": 400 }, { "id": "151", "delta": 800 }, { "id": "201", "delta": 1200 }, { "id": "301", "delta": 2000 } ] },
+        { "id": "roseColor", "type": "color", "choices": [ { "id": "red" }, { "id": "white" }, { "id": "pink" } ] },
+        { "id": "wrapColor", "set": "wrapColor" }
+      ],
+      "personalWord": false,
+      "stock": null
+    },
+    {
+      "id": "powder-roses-pearls",
+      "category": "roses",
+      "occasions": ["birthday", "love", "thanks"],
+      "images": ["/media/roses/roses-075.jpg", "/media/roses/roses-057.jpg", "/media/roses/roses-077.jpg", "/media/roses/roses-061.jpg", "/media/roses/roses-072.jpg", "/media/roses/roses-078.jpg", "/media/roses/roses-085.jpg"],
+      "name": { "he": "זר ורדים ורודים ופנינים", "en": "Powder roses & pearls", "fr": "Roses poudrées et perles", "es": "Rosas empolvadas y perlas" },
+      "description": {
+        "he": "ורדים בגווני ורוד ושמנת, שרשרת פנינים עדינה ועטיפת אורגנזה ורודה. אפשר להוסיף שם על כרטיס השקוף.",
+        "en": "Pink and cream roses, a delicate string of pearls and blush organza wrapping. A name can be added on the clear card.",
+        "fr": "Roses roses et crème, un fil de perles délicat et un voile d’organza rose. Un prénom peut être ajouté sur la carte transparente.",
+        "es": "Rosas rosa y crema, un delicado hilo de perlas y envoltorio de organza rosa. Se puede añadir un nombre en la tarjeta transparente."
+      },
+      "priceFrom": 390,
+      "options": [
+        { "id": "roses", "type": "choice", "choices": [ { "id": "25", "delta": 0 }, { "id": "51", "delta": 250 }, { "id": "101", "delta": 650 } ] },
+        { "id": "roseColor", "type": "color", "choices": [ { "id": "pink" }, { "id": "white" }, { "id": "cream" } ] },
+        { "id": "wrapColor", "set": "wrapColor" }
+      ],
+      "personalWord": true,
+      "stock": null
+    },
+    {
+      "id": "dream-bouquet",
+      "category": "bouquets",
+      "occasions": ["birthday", "thanks", "congrats", "holidays"],
+      "images": ["/media/bouquets/bouquets-009.jpg", "/media/bouquets/bouquets-005.jpg", "/media/bouquets/bouquets-007.jpg", "/media/bouquets/bouquets-008.jpg"],
+      "name": { "he": "הזר החלומי", "en": "The dream bouquet", "fr": "Le bouquet rêvé", "es": "El ramo soñado" },
+      "description": {
+        "he": "ליזיאנתוס, ורדים, אלסטרומריה וגיבסנית, עטופים באורגנזה ורודה. כל זר מורכב מחדש לפי הפרחים הכי יפים של היום.",
+        "en": "Lisianthus, roses, alstroemeria and gypsophila wrapped in blush organza. Each bouquet is composed with the most beautiful flowers of the day.",
+        "fr": "Lisianthus, roses, alstroemères et gypsophile dans un voile d’organza rose. Chaque bouquet est composé avec les plus belles fleurs du jour.",
+        "es": "Lisianthus, rosas, alstroemerias y paniculata en organza rosa. Cada ramo se compone con las flores más bonitas del día."
+      },
+      "priceFrom": 250,
+      "options": [
+        { "id": "size", "set": "size" },
+        { "id": "palette", "set": "palette" },
+        { "id": "wrapColor", "set": "wrapColor" }
+      ],
+      "personalWord": false,
+      "stock": null
+    },
+    {
+      "id": "dream-balloon-bouquet",
+      "category": "balloon-bouquets",
+      "occasions": ["birthday", "love", "congrats"],
+      "images": ["/media/bouquets-ballons/bouquets-ballons-001.jpg", "/media/bouquets-ballons/bouquets-ballons-002.jpg", "/media/bouquets-ballons/bouquets-ballons-003.jpg", "/media/bouquets-ballons/bouquets-ballons-004.jpg", "/media/bouquets-ballons/bouquets-ballons-006.jpg"],
+      "name": { "he": "זר בלון חלומי", "en": "Dream balloon bouquet", "fr": "Bouquet ballon rêvé", "es": "Ramo de globos soñado" },
+      "description": {
+        "he": "ענן של גיבסנית ורודה, בלוני לב ובלוני כרום, עטיפה בשכבות. בוחרים צבע בלון, עיטוף וגודל, ומוסיפים הקדשה אישית.",
+        "en": "A cloud of pink gypsophila, heart and chrome balloons, layered wrapping. Choose the balloon colour, wrap and size, then add a personal word.",
+        "fr": "Un nuage de gypsophile rose, des ballons cœur et chromés, un emballage en couches. Choisissez la couleur du ballon, l’emballage, la taille, et ajoutez un mot personnel.",
+        "es": "Una nube de paniculata rosa, globos de corazón y cromados, envoltorio en capas. Elige color de globo, envoltorio y tamaño, y añade una dedicatoria."
+      },
+      "priceFrom": 690,
+      "options": [
+        { "id": "balloonColor", "set": "balloonColor" },
+        { "id": "wrapColor", "set": "wrapColor" },
+        { "id": "size", "set": "sizeBalloon" }
+      ],
+      "personalWord": true,
+      "stock": null
+    },
+    {
+      "id": "bow-balloon-bouquet",
+      "category": "balloon-bouquets",
+      "occasions": ["birthday", "birth", "congrats"],
+      "images": ["/media/bouquets-ballons/bouquets-ballons-047.jpg", "/media/bouquets-ballons/bouquets-ballons-043.jpg", "/media/bouquets-ballons/bouquets-ballons-049.jpg", "/media/bouquets-ballons/bouquets-ballons-050.jpg", "/media/bouquets-ballons/bouquets-ballons-046.jpg"],
+      "name": { "he": "זר ורדים עם בלון פפיון", "en": "Roses with a bow balloon", "fr": "Roses et ballon nœud", "es": "Rosas con globo lazo" },
+      "description": {
+        "he": "ורדים ורודים בעטיפת אורגנזה נפוחה, בלון פפיון ובלון שקוף עם הקדשה בכתב יד.",
+        "en": "Pink roses in billowing organza, a bow-shaped balloon and a clear balloon with a handwritten message.",
+        "fr": "Roses roses dans un organza bouffant, un ballon en forme de nœud et une bulle transparente avec un message manuscrit.",
+        "es": "Rosas rosas en organza voluminosa, un globo con forma de lazo y un globo transparente con mensaje escrito a mano."
+      },
+      "priceFrom": 590,
+      "options": [
+        { "id": "balloonColor", "set": "balloonColor" },
+        { "id": "size", "set": "sizeBalloon" }
+      ],
+      "personalWord": true,
+      "stock": null
+    },
+    {
+      "id": "heart-balloon-bouquet",
+      "category": "balloon-bouquets",
+      "occasions": ["birthday", "love"],
+      "images": ["/media/bouquets-ballons/bouquets-ballons-066.jpg", "/media/bouquets-ballons/bouquets-ballons-064.jpg", "/media/bouquets-ballons/bouquets-ballons-068.jpg"],
+      "name": { "he": "זר פרחים עם בלון לב", "en": "Bouquet with heart balloon", "fr": "Bouquet et ballon cœur", "es": "Ramo con globo de corazón" },
+      "description": {
+        "he": "ליזיאנתוס ואלסטרומריה ורודים, בלון לב פנינה וזר בלונים קטן מעל. מגיע עם כרטיס ברכה.",
+        "en": "Pink lisianthus and alstroemeria, a pearl heart balloon and a small balloon cluster above. Comes with a greeting card.",
+        "fr": "Lisianthus et alstroemères roses, un ballon cœur nacré et une petite grappe de ballons. Livré avec une carte.",
+        "es": "Lisianthus y alstroemerias rosas, un globo corazón nacarado y un pequeño racimo de globos. Incluye tarjeta."
+      },
+      "priceFrom": 490,
+      "options": [
+        { "id": "balloonColor", "set": "balloonColor" },
+        { "id": "size", "set": "sizeBalloon" }
+      ],
+      "personalWord": true,
+      "stock": null
+    },
+    {
+      "id": "white-balloon-bouquet",
+      "category": "balloon-bouquets",
+      "occasions": ["birthday", "birth"],
+      "images": ["/media/bouquets-ballons/bouquets-ballons-037.jpg", "/media/bouquets-ballons/bouquets-ballons-033.jpg"],
+      "name": { "he": "זר לב לבן ובלונים", "en": "White heart & balloons", "fr": "Cœur blanc et ballons", "es": "Corazón blanco y globos" },
+      "description": {
+        "he": "לב של גיבסנית לבנה עם מכסה לב בהקדשה אישית, בלונים לבנים ושקופים עם סרטים.",
+        "en": "A heart of white gypsophila with a personalised heart lid, white and clear balloons with ribbons.",
+        "fr": "Un cœur de gypsophile blanche avec un couvercle cœur personnalisé, des ballons blancs et transparents à rubans.",
+        "es": "Un corazón de paniculata blanca con tapa personalizada, globos blancos y transparentes con cintas."
+      },
+      "priceFrom": 520,
+      "options": [
+        { "id": "size", "set": "sizeBalloon" }
+      ],
+      "personalWord": true,
+      "stock": null
+    },
+    {
+      "id": "hatbox-heart-balloon",
+      "category": "balloon-bouquets",
+      "occasions": ["birthday", "love", "congrats"],
+      "images": ["/media/bouquets-ballons/bouquets-ballons-096.jpg", "/media/bouquets-ballons/bouquets-ballons-091.jpg", "/media/bouquets-ballons/bouquets-ballons-093.jpg", "/media/bouquets-ballons/bouquets-ballons-089.jpg", "/media/bouquets-ballons/bouquets-ballons-090.jpg"],
+      "name": { "he": "קופסת פרחים עם בלון לב", "en": "Flower hatbox with heart balloon", "fr": "Boîte à chapeau fleurie et ballon cœur", "es": "Sombrerera de flores con globo corazón" },
+      "description": {
+        "he": "קופסה עגולה ורודה שופעת ליזיאנתוס, ורדים וג׳רברה, ובלון לב עם הקדשה מודפסת.",
+        "en": "A round pink box overflowing with lisianthus, roses and gerbera, crowned by a heart balloon with a printed message.",
+        "fr": "Une boîte ronde rose débordant de lisianthus, roses et gerberas, surmontée d’un ballon cœur imprimé.",
+        "es": "Una caja redonda rosa rebosante de lisianthus, rosas y gerberas, con un globo corazón con mensaje impreso."
+      },
+      "priceFrom": 690,
+      "options": [
+        { "id": "balloonColor", "set": "balloonColor" },
+        { "id": "size", "set": "sizeBalloon" }
+      ],
+      "personalWord": true,
+      "stock": null
+    },
+    {
+      "id": "white-bag-box",
+      "category": "boxes",
+      "occasions": ["birth", "thanks", "birthday"],
+      "images": ["/media/coffrets/coffrets-039.jpg", "/media/coffrets/coffrets-042.jpg"],
+      "name": { "he": "מארז תיק לבן", "en": "White bag box", "fr": "Coffret sac blanc", "es": "Caja bolso blanco" },
+      "description": {
+        "he": "תיק מרופד לבן עם שרשרת זהב, מלא סחלבים, ליזיאנתוס ואלסטרומריה לבנים.",
+        "en": "A quilted white bag with a gold chain, filled with white orchids, lisianthus and alstroemeria.",
+        "fr": "Un sac matelassé blanc à chaîne dorée, rempli d’orchidées, lisianthus et alstroemères blancs.",
+        "es": "Un bolso acolchado blanco con cadena dorada, lleno de orquídeas, lisianthus y alstroemerias blancas."
+      },
+      "priceFrom": 450,
+      "options": [
+        { "id": "palette", "set": "palette" }
+      ],
+      "personalWord": false,
+      "stock": null
+    },
+    {
+      "id": "crown-teddy-box",
+      "category": "boxes",
+      "occasions": ["birthday", "love"],
+      "images": ["/media/coffrets/coffrets-087.jpg", "/media/coffrets/coffrets-080.jpg"],
+      "name": { "he": "מארז לב, כתר ודובי", "en": "Heart, crown & teddy box", "fr": "Coffret cœur, couronne et ourson", "es": "Caja corazón, corona y osito" },
+      "description": {
+        "he": "קופסת לב ורודה עם פרחים, כתר, פינוקים ודובי לבן גדול. מהדורה מוגבלת.",
+        "en": "A pink heart box with flowers, a crown, sweet treats and a large white teddy. Limited edition.",
+        "fr": "Une boîte cœur rose avec fleurs, couronne, douceurs et grand ourson blanc. Édition limitée.",
+        "es": "Una caja corazón rosa con flores, corona, dulces y un gran osito blanco. Edición limitada."
+      },
+      "priceFrom": 790,
+      "options": [],
+      "personalWord": true,
+      "stock": 5,
+      "_stockToFill": "À REMPLIR : stock réel"
+    },
+    {
+      "id": "dessert-hearts",
+      "category": "desserts",
+      "occasions": ["birthday", "love", "congrats"],
+      "images": ["/media/desserts/desserts-012.jpg", "/media/desserts/desserts-011.jpg", "/media/desserts/desserts-018.jpg", "/media/desserts/desserts-014.jpg", "/media/desserts/desserts-017.jpg"],
+      "name": { "he": "מארז לב קינוחים ופרחים", "en": "Dessert heart with flowers", "fr": "Cœur de desserts fleuri", "es": "Corazón de postres con flores" },
+      "description": {
+        "he": "לב מלא קינוחים, מעוטר בפרחים חיים ובגיבסנית, עם כרטיס לב בהקדשה. אפשר להוסיף בלון לב.",
+        "en": "A heart filled with desserts, decorated with fresh flowers and gypsophila, with a personalised heart card. Add a heart balloon if you like.",
+        "fr": "Un cœur garni de desserts, décoré de fleurs fraîches et de gypsophile, avec une carte cœur personnalisée. Ballon cœur en option.",
+        "es": "Un corazón lleno de postres, decorado con flores naturales y paniculata, con tarjeta corazón personalizada. Globo corazón opcional."
+      },
+      "priceFrom": 390,
+      "options": [
+        { "id": "hearts", "type": "choice", "choices": [ { "id": "1", "delta": 0 }, { "id": "2", "delta": 330 } ] },
+        { "id": "palette", "set": "palette" }
+      ],
+      "personalWord": true,
+      "stock": null
+    },
+    {
+      "id": "white-orchid-heart",
+      "category": "hearts",
+      "occasions": ["love", "birth", "thanks"],
+      "images": ["/media/coeurs-compositions/coeurs-compositions-040.jpg", "/media/coeurs-compositions/coeurs-compositions-038.jpg", "/media/coeurs-compositions/coeurs-compositions-041.jpg"],
+      "name": { "he": "לב פרחים לבן וסחלב", "en": "White flower heart & orchid", "fr": "Cœur blanc et orchidée", "es": "Corazón blanco y orquídea" },
+      "description": {
+        "he": "לב של ליזיאנתוס לבן עם סחלבים במרכז, בעטיפת אורגנזה שקופה וסרט סאטן.",
+        "en": "A heart of white lisianthus with orchids at its centre, in clear organza with a satin ribbon.",
+        "fr": "Un cœur de lisianthus blanc et d’orchidées, dans un voile d’organza transparent noué de satin.",
+        "es": "Un corazón de lisianthus blanco con orquídeas en el centro, en organza transparente con lazo de satén."
+      },
+      "priceFrom": 590,
+      "options": [
+        { "id": "size", "set": "sizeBalloon" }
+      ],
+      "personalWord": false,
+      "stock": null
+    },
+    {
+      "id": "happy-birthday-heart",
+      "category": "hearts",
+      "occasions": ["birthday"],
+      "images": ["/media/coeurs-compositions/coeurs-compositions-070.jpg", "/media/coeurs-compositions/coeurs-compositions-069.jpg", "/media/coeurs-compositions/coeurs-compositions-071.jpg"],
+      "name": { "he": "קופסת לב יום הולדת", "en": "Birthday heart box", "fr": "Boîte cœur anniversaire", "es": "Caja corazón de cumpleaños" },
+      "description": {
+        "he": "קופסת לב פתוחה, שופעת ליזיאנתוס ורוד ולבן, עם מכסה מודפס בשם של מי שחוגג.",
+        "en": "An open heart box overflowing with pink and white lisianthus, with a lid printed with the name of the person celebrating.",
+        "fr": "Une boîte cœur ouverte débordant de lisianthus rose et blanc, au couvercle imprimé du prénom à fêter.",
+        "es": "Una caja corazón abierta llena de lisianthus rosa y blanco, con la tapa impresa con el nombre de quien celebra."
+      },
+      "priceFrom": 520,
+      "options": [
+        { "id": "palette", "set": "palette" }
+      ],
+      "personalWord": true,
+      "stock": null
+    },
+    {
+      "id": "heart-basket",
+      "category": "hearts",
+      "occasions": ["birthday", "love", "congrats"],
+      "images": ["/media/coeurs-compositions/coeurs-compositions-082.jpg", "/media/coeurs-compositions/coeurs-compositions-081.jpg", "/media/coeurs-compositions/coeurs-compositions-084.jpg"],
+      "name": { "he": "סל לב פרחים", "en": "Heart flower basket", "fr": "Panier cœur fleuri", "es": "Cesta corazón de flores" },
+      "description": {
+        "he": "סל עם ידית לב, שופע ליזיאנתוס וציפורנים ורודים, סרטים ופפיונים.",
+        "en": "A basket with a heart-shaped handle, overflowing with pink lisianthus and carnations, ribbons and bows.",
+        "fr": "Un panier à anse en cœur, débordant de lisianthus et d’œillets roses, de rubans et de nœuds.",
+        "es": "Una cesta con asa de corazón, llena de lisianthus y claveles rosas, cintas y lazos."
+      },
+      "priceFrom": 750,
+      "options": [
+        { "id": "palette", "set": "palette" }
+      ],
+      "personalWord": false,
+      "stock": null
+    },
+    {
+      "id": "pearl-heart-crown",
+      "category": "hearts",
+      "occasions": ["birthday", "birth"],
+      "images": ["/media/coeurs-compositions/coeurs-compositions-088.jpg"],
+      "name": { "he": "בלון לב פנינים עם כתר", "en": "Pearl heart balloon with crown", "fr": "Ballon cœur perlé et couronne", "es": "Globo corazón perlado con corona" },
+      "description": {
+        "he": "בלון לב שקוף משובץ פנינים, כתר, ופרחים לבנים בקופסה מרופדת.",
+        "en": "A clear heart balloon studded with pearls, a crown, and white flowers in a quilted box.",
+        "fr": "Un ballon cœur transparent perlé, une couronne et des fleurs blanches dans une boîte matelassée.",
+        "es": "Un globo corazón transparente con perlas, una corona y flores blancas en una caja acolchada."
+      },
+      "priceFrom": 650,
+      "options": [],
+      "personalWord": true,
+      "stock": null
+    },
+    {
+      "id": "pink-balloon-cloud",
+      "category": "balloons",
+      "occasions": ["birthday", "birth", "congrats"],
+      "images": ["/media/ballons/ballons-019.jpg", "/media/ballons/ballons-020.jpg", "/media/ballons/ballons-016.jpg", "/media/ballons/ballons-015.jpg"],
+      "name": { "he": "ענן בלונים ורוד", "en": "Pink balloon cloud", "fr": "Nuage de ballons roses", "es": "Nube de globos rosa" },
+      "description": {
+        "he": "בלונים ורודים, לבנים ושקופים עם פפיונים קטנים, ובלון לב עם הקדשה.",
+        "en": "Pink, white and clear balloons with tiny bows, and a heart balloon with your message.",
+        "fr": "Ballons roses, blancs et transparents ornés de petits nœuds, et un ballon cœur avec votre message.",
+        "es": "Globos rosas, blancos y transparentes con pequeños lazos, y un globo corazón con tu mensaje."
+      },
+      "priceFrom": 290,
+      "options": [
+        { "id": "balloonColor", "set": "balloonColor" },
+        { "id": "size", "set": "sizeBalloon" }
+      ],
+      "personalWord": true,
+      "stock": null
+    },
+    {
+      "id": "red-kiss-balloons",
+      "category": "balloons",
+      "occasions": ["love"],
+      "collection": "valentine",
+      "images": ["/media/ballons/ballons-025.jpg", "/media/ballons/ballons-026.jpg"],
+      "name": { "he": "בלוני נשיקה אדומים", "en": "Red kiss balloons", "fr": "Ballons bisous rouges", "es": "Globos beso rojos" },
+      "description": {
+        "he": "בלוני לב ושפתיים אדומים מבריקים. מושלם לצד זר ורדים אדומים. מהדורה מוגבלת.",
+        "en": "Glossy red heart and lip balloons. Perfect next to a bouquet of red roses. Limited edition.",
+        "fr": "Ballons cœurs et lèvres rouges brillants. Parfaits à côté d’un bouquet de roses rouges. Édition limitée.",
+        "es": "Globos de corazón y labios rojos brillantes. Perfectos junto a un ramo de rosas rojas. Edición limitada."
+      },
+      "priceFrom": 390,
+      "options": [
+        { "id": "size", "set": "sizeBalloon" }
+      ],
+      "personalWord": false,
+      "stock": 20,
+      "_stockToFill": "À REMPLIR : stock réel"
+    },
+    {
+      "id": "baby-basket",
+      "category": "baby",
+      "occasions": ["birth"],
+      "images": ["/media/baby/baby-031.jpg"],
+      "name": { "he": "סל לידה", "en": "New baby basket", "fr": "Panier naissance", "es": "Cesta de nacimiento" },
+      "description": {
+        "he": "סל נצרים עם פרחים לבנים, ארנב פרווה רך ובלון בועה עם שם התינוק.",
+        "en": "A wicker basket with white flowers, a soft plush bunny and a bubble balloon with the baby’s name.",
+        "fr": "Un panier en osier, des fleurs blanches, un lapin tout doux et un ballon bulle au prénom du bébé.",
+        "es": "Una cesta de mimbre con flores blancas, un conejito de peluche y un globo burbuja con el nombre del bebé."
+      },
+      "priceFrom": 590,
+      "options": [
+        { "id": "balloonColor", "type": "color", "choices": [ { "id": "white" }, { "id": "pink" }, { "id": "blue" }, { "id": "clear" } ] }
+      ],
+      "personalWord": true,
+      "stock": null
+    }
+  ],
+
+  "addons": [
+    { "id": "name-balloon", "price": 45, "image": "/media/ballons/ballons-020.jpg", "name": { "he": "בלון הליום עם שם", "en": "Helium balloon with a name", "fr": "Ballon hélium prénom", "es": "Globo de helio con nombre" } },
+    { "id": "mini-dessert-heart", "price": 120, "image": "/media/desserts/desserts-012.jpg", "name": { "he": "לב קינוחים קטן", "en": "Small dessert heart", "fr": "Petit cœur de desserts", "es": "Corazón de postres pequeño" } },
+    { "id": "teddy", "price": 90, "image": "/media/coffrets/coffrets-087.jpg", "name": { "he": "דובי פרווה", "en": "Plush teddy bear", "fr": "Ourson en peluche", "es": "Osito de peluche" } }
+  ],
+
+  "delivery": {
+    "_toFill": "À REMPLIR : zones, frais, délai minimum et créneaux réels",
+    "pickup": true,
+    "minLeadHours": 24,
+    "closedWeekdays": [6],
+    "slots": ["09:00–12:00", "12:00–15:00", "15:00–18:00"],
+    "fridaySlots": ["09:00–11:00", "11:00–13:00"],
+    "zones": [
+      { "id": "rishon", "fee": 40, "name": { "he": "ראשון לציון", "en": "Rishon LeZion", "fr": "Rishon LeZion", "es": "Rishon LeZion" } },
+      { "id": "near", "fee": 60, "name": { "he": "נס ציונה, רחובות, חולון, בת ים", "en": "Ness Ziona, Rehovot, Holon, Bat Yam", "fr": "Ness Ziona, Rehovot, Holon, Bat Yam", "es": "Ness Ziona, Rehovot, Holón, Bat Yam" } },
+      { "id": "gush-dan", "fee": 80, "name": { "he": "תל אביב וגוש דן", "en": "Tel Aviv & Gush Dan", "fr": "Tel Aviv et Gush Dan", "es": "Tel Aviv y Gush Dan" } },
+      { "id": "other", "fee": null, "name": { "he": "אזור אחר (בתיאום)", "en": "Other area (on request)", "fr": "Autre zone (sur demande)", "es": "Otra zona (a consultar)" } }
+    ],
+    "_blockedDatesToCheck": "Jours fériés à vérifier avec Shir (veilles de fête comprises ou non)",
+    "blockedDates": [
+      { "date": "2027-04-22", "label": "פסח" },
+      { "date": "2027-04-28", "label": "שביעי של פסח" },
+      { "date": "2027-05-12", "label": "יום העצמאות" },
+      { "date": "2027-06-11", "label": "שבועות" },
+      { "date": "2027-10-02", "label": "ראש השנה" },
+      { "date": "2027-10-03", "label": "ראש השנה" },
+      { "date": "2027-10-11", "label": "יום כיפור" },
+      { "date": "2027-10-16", "label": "סוכות" },
+      { "date": "2027-10-23", "label": "שמחת תורה" }
+    ]
+  },
+
+  "collections": {
+    "_README": "active = \"auto\" (la collection dont les dates englobent aujourd’hui) ou l’id d’une collection pour forcer la bannière, ou \"none\".",
+    "active": "auto",
+    "list": [
+      { "id": "valentine", "from": "2027-01-25", "to": "2027-02-14", "image": "/media/roses/roses-027.jpg" },
+      { "id": "womens-day", "from": "2027-02-28", "to": "2027-03-08", "image": "/media/bouquets/bouquets-009.jpg" },
+      { "id": "pesach", "from": "2027-04-01", "to": "2027-04-21", "image": "/media/coeurs-compositions/coeurs-compositions-082.jpg" },
+      { "id": "shavuot", "from": "2027-05-25", "to": "2027-06-10", "image": "/media/coffrets/coffrets-039.jpg" },
+      { "id": "tu-beav", "from": "2027-08-04", "to": "2027-08-18", "image": "/media/roses/roses-075.jpg" },
+      { "id": "rosh-hashana", "from": "2027-09-12", "to": "2027-10-01", "image": "/media/bouquets-ballons/bouquets-ballons-096.jpg" }
+    ]
+  }
+}

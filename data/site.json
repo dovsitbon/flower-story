@@ -1,0 +1,17 @@
+{
+  "_README": "Infos générales. Les champs null sont À REMPLIR (ils sont masqués sur le site tant qu'ils sont vides).",
+  "url": "https://flower-story.vercel.app",
+  "name": "Flower Story Boutique",
+  "nameHe": "פלאוור סטורי בוטיק",
+  "owner": "Shir",
+  "whatsapp": "972508944771",
+  "phoneDisplay": "050-894-4771",
+  "instagram": "https://www.instagram.com/flowerstory_boutique/",
+  "instagramHandle": "@flowerstory_boutique",
+  "email": null,
+  "address": null,
+  "city": { "he": "ראשון לציון", "en": "Rishon LeZion", "fr": "Rishon LeZion", "es": "Rishon LeZion" },
+  "hours": null,
+  "businessId": null,
+  "_payment": "mode : \"whatsapp\" (commande envoyée sur WhatsApp, sans paiement en ligne). Pour Stripe : variable NEXT_PUBLIC_PAYMENT_MODE=stripe + STRIPE_SECRET_KEY, et pricesConfirmed=true dans products.json. Cardcom / Tranzila / Grow (Meshulam) : à brancher dans app/api/checkout une fois le prestataire choisi."
+}

@@ -1,0 +1,8 @@
+{
+  "_README": "Avis clients réels uniquement (avec accord du client). La section « avis » reste masquée tant qu'aucun avis n'a published: true.",
+  "reviews": [
+    { "published": false, "name": "<!-- À REMPLIR -->", "text": { "he": "<!-- À REMPLIR -->", "en": "<!-- À REMPLIR -->", "fr": "<!-- À REMPLIR -->", "es": "<!-- À REMPLIR -->" } },
+    { "published": false, "name": "<!-- À REMPLIR -->", "text": { "he": "<!-- À REMPLIR -->", "en": "<!-- À REMPLIR -->", "fr": "<!-- À REMPLIR -->", "es": "<!-- À REMPLIR -->" } },
+    { "published": false, "name": "<!-- À REMPLIR -->", "text": { "he": "<!-- À REMPLIR -->", "en": "<!-- À REMPLIR -->", "fr": "<!-- À REMPLIR -->", "es": "<!-- À REMPLIR -->" } }
+  ]
+}
