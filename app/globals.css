@@ -251,8 +251,6 @@ html.intro-seen .intro-curtain {
   display: none;
 }
 .intro-draw {
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
   animation: intro-draw 0.55s ease-in-out forwards;
 }
 .intro-bloom {

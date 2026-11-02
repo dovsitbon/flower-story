@@ -55,6 +55,8 @@ export function Intro({ skipLabel }: { skipLabel: string }) {
               strokeWidth={0.6}
               strokeLinecap="round"
               strokeLinejoin="round"
+              strokeDasharray={1}
+              strokeDashoffset={1}
             >
               {PETALS.map((r, i) => (
                 <path key={r} d={PETAL_PATH} transform={`rotate(${r} 24 20)`} pathLength={1} className="intro-draw" style={{ animationDelay: `${0.05 + i * 0.07}s` }} />
